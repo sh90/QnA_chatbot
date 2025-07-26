@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 open_ai_key = st.secrets['OPENAI_API_KEY']
 
 # Constants
-DATA_FILE = "data/onboarding.txt"
+DATA_FILE = "onboarding.txt"
 CHROMA_DIR = "chroma_store"
 EMBED_MODEL = "text-embedding-3-small"
 LLM_MODEL = "gpt-4o-mini"
