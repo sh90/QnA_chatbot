@@ -1,6 +1,6 @@
 streamlit
 langchain==0.3.27
-langchain_community=0.3.27
+langchain_community
 tiktoken
 chromadb==1.0.15
 openai
