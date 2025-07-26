@@ -9,7 +9,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import data_info  # Contains your OpenAI key
 
 # Set OpenAI key
-open_ai_key = data_info.open_ai_key
+open_ai_key = st.secrets['OPENAI_API_KEY']
 
 # Constants
 DATA_FILE = "data/onboarding.txt"
