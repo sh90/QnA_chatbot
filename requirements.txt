@@ -4,4 +4,4 @@ langchain_community
 tiktoken
 chromadb
 openai
-
+sqlite3 >= 3.35.0
