@@ -6,7 +6,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import data_info  # Contains your OpenAI key
 
 # Set OpenAI key
 open_ai_key = st.secrets['OPENAI_API_KEY']
